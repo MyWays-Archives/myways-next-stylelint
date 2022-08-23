@@ -1,6 +1,6 @@
 {
   "name": "@myways.ai/next-stylelint",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Stylelint config for React & Next.js",
   "main": "index.js",
   "files": [
