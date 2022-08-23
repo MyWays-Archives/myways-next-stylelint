@@ -18,7 +18,7 @@ module.exports = {
       "always",
       { ignore: ["stylelint-commands", "after-comment"] },
     ],
-    "alpha-value-notation": false,
+    "alpha-value-notation": null,
     "comment-no-empty": true,
     "comment-whitespace-inside": "always",
     "custom-property-no-missing-var-function": true,
