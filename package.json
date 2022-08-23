@@ -1,0 +1,39 @@
+{
+  "name": "@myways.ai/next-stylelint",
+  "version": "1.0.0",
+  "description": "Stylelint config for React & Next.js",
+  "main": "index.js",
+  "files": [
+    "LICENSE",
+    "README.md",
+    "index.js"
+  ],
+  "keywords": [
+    "config",
+    "stylelint",
+    "nextjs"
+  ],
+  "peerDependencies": {
+    "postcss-scss": "^4.0.4",
+    "stylelint": "^14.11.0",
+    "stylelint-config-recommended": "^9.0.0",
+    "stylelint-config-standard-scss": "^5.0.0",
+    "stylelint-config-styled-components": "^0.1.1",
+    "stylelint-declaration-block-no-ignored-properties": "^2.5.0",
+    "stylelint-processor-styled-components": "^1.10.0"
+  },
+  "scripts": {
+    "check:css": "stylelint  --ignore-path .gitignore \"**/*.js\"",
+    "check:css-quiet": "stylelint --quiet  --ignore-path .gitignore \"**/*.js\""
+  },
+  "author": "MyWays <dev@myways.ai>",
+  "license": "GPL-3.0-or-later",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MyWays-in/myways-next-stylelint.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MyWays-in/myways-next-stylelint/issues"
+  },
+  "homepage": "https://github.com/MyWays-in/myways-next-stylelint#readme"
+}
